@@ -56,7 +56,7 @@ footer{
     color: rgb(206, 186, 186);
     background-color: #111324;
 }
-button{
+.footer_button{
     padding: 20px;
     width: 240px;
     background-color: #8162fd;
@@ -65,7 +65,7 @@ button{
     font-weight: bold;
     border-radius: 5px;
 }
-button:hover{
+.footer_button:hover{
     background-color: #957ef1;
 }
 .copy_right{
