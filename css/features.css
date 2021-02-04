@@ -1,0 +1,124 @@
+body{
+    /* background-color: rgb(255, 255, 126); */
+    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Roboto', sans-serif;
+    /* width: 80%;
+    margin: auto; */
+}
+#Powerful_mail{
+    width: 900px;
+    margin: auto;
+}
+#Powerful_mail > div{
+    margin: 0px 100px;
+    text-align: center;
+}
+#Powerful_mail > div > h1{
+    font-size: 50px;
+}
+#Powerful_mail > div > p{
+    color: gray;
+    font-size: 16px;
+    margin: 0px 50px;
+}
+.sign_up_btn{
+    width: 470px;
+    padding: 10px;
+    margin-top: 18px;
+    background-color: rgb(40, 115, 253);
+    color: white;
+    border: none;
+}
+.bgcolor{
+    /* margin-top: 40px; */
+    background-color:  rgb(246, 246, 246);
+}
+
+.grey_part{
+    margin-top: 40px;
+    /* background-color: rgb(246, 246, 246); */
+    display: grid;
+    grid-template-columns: 38% 60%;
+    gap: 2%;
+}
+.grey_part > div:nth-child(1){
+   padding: 45px 0px 45px 80px;
+}
+.inner_h2{
+    font-size: 32px;
+    margin: 4% 0%;
+}
+.Watch_demo, .learn_more{
+    height: 40px;
+    width: 150px;
+    margin: 4% 0%;
+    font-size: 15px;
+    /* font-weight: bold; */
+    border: 2px solid rgb(44, 195, 255);
+}
+.learn_more:hover ,.Watch_demo:hover{
+    background-color: rgb(95, 210, 255);
+    border: none;
+    color: black;
+}
+.Watch_demo{
+    background-color:  rgb(44, 195, 255);
+}
+.learn_more{
+    color: rgb(95, 210, 255);
+}
+.white_part{
+    display: grid;
+    grid-template-columns: 60% 38%;
+    gap: 2%;
+}
+.white_part>div:nth-child(2){
+    padding: 85px 80px 65px 0px;
+}
+#Email_marketing > div > img{
+    height: 380px;
+    width: 100%;
+    margin: 50px 0px;
+}
+#Marketing_automation>div > img{
+    height: 450px;
+    width: 70%;
+    margin-left: 50px;
+}
+#Personalization > div > img{
+    height:  500px;
+    width: 65%;
+    margin: 50px 100px;
+}
+#Personalization > div:nth-child(1){
+    margin-top: 25%;
+}
+#Contacts_and_segmentation>div>img{
+    padding: 0% 40px;
+}
+#blue_bg{
+    background-color: rgb(1, 1, 51);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+#blue_bg > div > button{
+    width: 30%;
+    margin: 4% 0% 0% 0%;
+}
+#blue_bg > div{
+    font-size: 18px;
+    width: 60%;
+    margin : auto;
+}
+#Signup_forms>div>img{
+    margin: 0px 150px;
+}
+#Transactional_email > div > img{
+    height: 450px;
+    width: 80%;
+    padding: 0px 0px 0px 80px;
+}
+#Customer_satisfaction{
+    
+}
