@@ -1,0 +1,236 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Roboto:wght@300&display=swap"); */
+/* font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Roboto', sans-serif; */
+
+/* Main Container  */
+#container {
+  background-color: #ffffff;
+  width: 100%;
+  font-family: "Graphik Web", Helvetica, sans-serif;
+}
+
+/* top-cont 1st box */
+#top-cont {
+  display: grid;
+  background-color: #111324;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+#top-cont > p:nth-child(1) {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+#top-cont > p:nth-child(2) {
+  font-size: 21px;
+}
+
+/* top-bar 2nd box  */
+#top-bar {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  background-color: #7856ff;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+#top-bar > p {
+  font-size: 18px;
+}
+#top-bar a {
+  background-color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #111324;
+  padding: 11px 18px 11px 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+#top-bar a :hover {
+  color: #7856ff;
+  text-decoration: none;
+}
+
+/* home-bar 3rd box  */
+#home-bar {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  align-items: center;
+  color: #8a8b93;
+  font-size: large;
+}
+#home-bar > img {
+  height: 50px;
+  width: 50px;
+}
+#home-bar > p:nth-child(2) {
+  margin-left: 20px;
+}
+#home-bar > p:nth-child(3) {
+  margin-left: 20px;
+}
+#home-bar > p:nth-child(4) {
+  margin-left: 20px;
+}
+#home-bar > p:nth-child(5) {
+  margin-left: 20px;
+}
+#home-bar > p:nth-child(6) {
+  margin-left: 20px;
+}
+#home-bar > p:nth-child(7) {
+  margin-left: 450px;
+}
+#home-bar > p:nth-child(8) {
+  margin-left: 20px;
+}
+#home-bar > input {
+  margin-left: 20px;
+  font-size: large;
+  font-style: italic;
+  width: 268px;
+  height: 40px;
+}
+
+/* bottom-bar box 5 */
+
+#bottom-bar {
+  width: 90%;
+  margin: auto;
+  height: 150px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+#bottom-bar > p {
+  font-size: 24px;
+  text-align: center;
+  font-weight: lighter;
+}
+#bottom-bar label {
+  background: #7856ff;
+  height: 20px;
+  width: 500px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: large;
+  font-weight: 550;
+  text-align: center;
+  border-radius: 2px;
+  margin-left: 450px;
+}
+
+/* collection box 6  */
+
+#collection {
+  width: 90%;
+  margin: auto;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#collection > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+  color: rgb(8, 8, 8);
+}
+#collection p {
+  text-align: center;
+  font-size: 18px;
+}
+#collection label {
+  background: turquoise;
+  height: 20px;
+  width: 180px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 2px;
+  margin-left: 600px;
+}
+
+/* collection-grid box 7  */
+#collection-grid {
+  max-width: 90%;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "a b c";
+}
+.a {
+  grid-area: a;
+}
+.b {
+  grid-area: b;
+}
+.c {
+  grid-area: c;
+}
+.a img {
+  max-width: 100%;
+}
+.b img {
+  max-width: 100%;
+}
+.c img {
+  max-width: 100%;
+}
+
+/* subscribe-bottom box 10  */
+
+#subscribe-bottom {
+  display: grid;
+  gap: 50px;
+  width: 90%;
+  margin: auto;
+  grid-template: "left right";
+}
+.left {
+  grid-area: left;
+}
+.right {
+  grid-area: right;
+}
+.left img {
+  height: 450px;
+  width: 450px;
+  margin: 100px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.left {
+  max-width: 100%;
+}
+.right {
+  margin: 100px 100px;
+  margin-left: 0px;
+}
+.right p {
+  margin-bottom: 50px;
+  font-size: larger;
+  font-weight: lighter;
+}
+#subscribe-bottom a {
+  background-color: rgb(0, 218, 218);
+  text-decoration: none;
+  border-radius: 4px;
+  color: #111324;
+  padding: 11px 18px 11px 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
