@@ -22,12 +22,20 @@ html{
 
 #template_bg{
     width: 100%;
-    height: 500px;
+    height: 400px;
+    background: center;
     /* background: rgba(0, 0, 0, 0.7) url('../img/template_bg1.jpg'); */
     background: rgba(96, 97, 99, 0.7) url('../img/template_bg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
 }
-
+.template_bg > p{
+    padding-top: 7%;
+    color: white;
+    font-size: 24px;
+    padding-left: 9%;
+}
+.template_bg > h5{}
+.template_bg_button{}
 
