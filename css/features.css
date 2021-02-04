@@ -1,9 +1,6 @@
 body{
-    /* background-color: rgb(255, 255, 126); */
     font-family: 'Baloo Chettan 2', cursive;
     font-family: 'Roboto', sans-serif;
-    /* width: 80%;
-    margin: auto; */
 }
 #Powerful_mail{
     width: 900px;
@@ -30,22 +27,20 @@ body{
     border: none;
 }
 .bgcolor{
-    /* margin-top: 40px; */
     background-color:  rgb(246, 246, 246);
 }
-
 .grey_part{
     margin-top: 40px;
-    /* background-color: rgb(246, 246, 246); */
     display: grid;
     grid-template-columns: 38% 60%;
     gap: 2%;
 }
 .grey_part > div:nth-child(1){
    padding: 45px 0px 45px 80px;
+   font-size: 18px;
 }
 .inner_h2{
-    font-size: 32px;
+    font-size: 38px;
     margin: 4% 0%;
 }
 .Watch_demo, .learn_more{
@@ -53,8 +48,7 @@ body{
     width: 150px;
     margin: 4% 0%;
     font-size: 15px;
-    /* font-weight: bold; */
-    border: 2px solid rgb(44, 195, 255);
+    border: 1px solid rgb(44, 195, 255);
 }
 .learn_more:hover ,.Watch_demo:hover{
     background-color: rgb(95, 210, 255);
@@ -73,7 +67,8 @@ body{
     gap: 2%;
 }
 .white_part>div:nth-child(2){
-    padding: 85px 80px 65px 0px;
+    padding:80px 80px 65px 0px;
+    font-size: 18px;
 }
 #Email_marketing > div > img{
     height: 380px;
@@ -120,5 +115,15 @@ body{
     padding: 0px 0px 0px 80px;
 }
 #Customer_satisfaction{
-    
+    text-align: center;
+    padding: 30px 0px;
+}
+#Customer_satisfaction > div:nth-child(1)>p{
+    margin: -2%;
+    font-size: 18px;
+}
+#Customer_satisfaction > div:nth-child(2) > div:nth-child(2)>p{
+    margin-top: 4%;
+    text-align: left;
+    font-size: 20px;
 }
