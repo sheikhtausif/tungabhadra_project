@@ -1,0 +1,131 @@
+#top div{
+    text-align: center;
+    font-family: 'Graphik Web', Helvetica, sans-serif;
+    
+}
+
+p{
+color: gray;
+}
+.but button{
+    width: 250px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white; 
+    font-weight: 600;
+    border: none;
+}
+.button1:hover{
+    background-color: rgb(168, 97, 235);
+}
+#but{
+    margin-left: 10px;
+    color: black;
+    background-color: skyblue;
+
+}
+#but:hover{
+    background-color: rgb(172, 219, 238);
+}
+.but3{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Graphik Web', Helvetica, sans-serif;
+}
+.but3 button{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    font-weight:bolder;
+    border-radius: 5px;
+    
+}
+/* ............part2.......................*/
+
+.bottom{
+    width: 800px;
+    height: 10px;
+    background-color: whitesmoke;
+    margin-right: 20px;
+    float: left;
+
+}
+
+input {
+display: block;
+width: 200px;
+margin: auto;
+}
+
+output {
+text-align: center;
+display: block;
+padding-top: 10px;
+font-size: 20px;
+font-family: 'Graphik Web', Helvetica, sans-serif;
+}
+
+
+
+.bottom {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+
+
+}
+.more {
+    font-weight: bolder;
+    color:slateblue ;
+    font-family: 'Graphik Web', Helvetica, sans-serif;
+    padding-top: 27px;
+    float: left;
+
+}
+.moree{
+    float: left;
+}
+
+#bottom{
+    margin-top: 90px;
+    margin-left: 80px;
+
+}
+.clear{
+        clear: both;
+}
+#plans{
+    width: 75%;
+    height: 850px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 80px;
+
+}
+#plans>div{
+    float: left;
+    margin: 10px;
+    text-align: center;
+    color:blueviolet;
+}
+.basic button,.unlimited button,.premier button{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+.basic img,.unlimited img,.premier img{
+    width: 17px;
+}
+.email{
+    margin-top: 50px;
+    color: black;
+}
+.email2{
+    color: black;
+    font-weight: 300;
+}
