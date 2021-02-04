@@ -108,13 +108,14 @@ font-family: 'Roboto', sans-serif; */
   width: 90%;
   margin: auto;
   height: 150px;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 150px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
 }
 #bottom-bar > p {
   font-size: 24px;
+  margin-bottom: 30px;
   text-align: center;
   font-weight: lighter;
 }
@@ -144,12 +145,13 @@ font-family: 'Roboto', sans-serif; */
 #collection > h1 {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   color: rgb(8, 8, 8);
 }
 #collection p {
   text-align: center;
   font-size: 18px;
+  margin-bottom: 20px;
 }
 #collection label {
   background: turquoise;
@@ -170,16 +172,22 @@ font-family: 'Roboto', sans-serif; */
   margin: auto;
   display: grid;
   gap: 20px;
+  margin-bottom: 200px;
+  grid-template-rows: 600px;
+  grid-template-columns: 31% 31% 31%;
   grid-template-areas: "a b c";
 }
 .a {
   grid-area: a;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .b {
   grid-area: b;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .c {
   grid-area: c;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .a img {
   max-width: 100%;
@@ -189,6 +197,9 @@ font-family: 'Roboto', sans-serif; */
 }
 .c img {
   max-width: 100%;
+}
+.list-cont li > a {
+  text-decoration: none;
 }
 
 /* subscribe-bottom box 10  */

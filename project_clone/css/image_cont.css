@@ -3,7 +3,10 @@
   max-width: 90%;
   margin: auto;
   display: grid;
-  gap: 20px;
+  gap: 40px;
+  overflow: hidden;
+  grid-template-rows: 500px 500px 500px 500px 500px 500px;
+  grid-template-columns: 31% 31% 31%;
   grid-template-areas:
     "image1 image2 image3"
     "image4 image5 image6"
@@ -13,63 +16,90 @@
     "image15 image15 image16";
 }
 .image1 {
+  border: 0.5px solid rgb(236, 228, 228);
   grid-area: image1;
 }
 .image2 {
   grid-area: image2;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image3 {
   grid-area: image3;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image4 {
   background-image: url(https://www.campaignmonitor.com/wp-content/uploads/2020/01/covid-19-collection-banner-color-570x675.jpg);
   grid-area: image4;
+  background-size: cover;
+  background-position: center;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image5 {
   background-image: url(https://www.campaignmonitor.com/wp-content/uploads/2019/10/dark-with-bubbles-570x675.jpg);
   grid-area: image5;
+  background-size: cover;
+  background-position: center;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image6 {
   background-color: #7856ff;
   grid-area: image6;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image7 {
   grid-area: image7;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image8 {
   grid-area: image8;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image9 {
   grid-area: image9;
   background-image: url(https://www.campaignmonitor.com/wp-content/uploads/2017/11/email-templates-layout-570x675.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image10 {
   grid-area: image10;
   background-image: url(https://www.campaignmonitor.com/wp-content/uploads/2019/09/padbanner-1200x675.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image11 {
   grid-area: image11;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image12 {
   grid-area: image12;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image13 {
   grid-area: image13;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image14 {
   grid-area: image14;
   background-color: #111324;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image15 {
   grid-area: image15;
   background-image: url(https://www.campaignmonitor.com/wp-content/uploads/2019/04/coffeecrowd-1200x675.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image16 {
   grid-area: image16;
   background-color: #ffffff;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .image1 img {
   max-width: 100%;
+  min-height: fit-content;
 }
 .image2 img {
   max-width: 100%;
@@ -90,7 +120,7 @@
   max-width: 100%;
 }
 .image8 img {
-  max-width: 100%;
+  min-width: 100%;
 }
 .image9 img {
   max-width: 100%;
@@ -119,9 +149,27 @@
 .text-cont {
   font-size: 40px;
   font-weight: 100;
-  height: 200px;
+  height: 250px;
   color: #8a8b93;
-  justify-content: center;
   text-align: center;
-  padding: 50px;
+  margin: 50px;
+  overflow: hidden;
+}
+.text-cont h3 {
+  text-align: start;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+.text-cont p {
+  text-align: start;
+  color: #ffffff;
+  font-size: medium;
+}
+li {
+  text-align: start;
+  color: #ffffff;
+  font-size: medium;
+  margin: 30px 20px;
+  list-style-type: none;
 }

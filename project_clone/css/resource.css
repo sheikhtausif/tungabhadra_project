@@ -9,7 +9,7 @@
 #resource-cont > h1 {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   color: rgb(8, 8, 8);
 }
 #resource-cont p {
@@ -23,7 +23,9 @@
   max-width: 90%;
   margin: auto;
   display: grid;
-  gap: 20px;
+  gap: 40px;
+  grid-template-rows: 500px 500px 500px;
+  grid-template-columns: 31% 31% 31%;
   grid-template-areas:
     "res1 res2 res3"
     "res4 res5 res6"
@@ -31,32 +33,45 @@
 }
 .res1 {
   grid-area: res1;
+  border: 0.5px solid rgb(236, 228, 228);
   background-image: url(https://www.campaignmonitor.com/wp-content/uploads/2019/11/onboarding-video-purple-570x675.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .res2 {
   grid-area: res2;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .res3 {
   grid-area: res3;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .res4 {
   grid-area: res4;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .res5 {
   grid-area: res5;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .res6 {
   grid-area: res6;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .res7 {
   grid-area: res7;
+  border: 0.5px solid rgb(236, 228, 228);
   background-image: url(https://www.campaignmonitor.com/wp-content/uploads/2017/05/template-builder-teal-tall-570x675.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .res8 {
   grid-area: res8;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .res9 {
   grid-area: res9;
+  border: 0.5px solid rgb(236, 228, 228);
 }
 .res1 img {
   max-width: 100%;
