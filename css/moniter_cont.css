@@ -1,0 +1,45 @@
+/* moniter-cont box 11  */
+
+#moniter-cont {
+  margin: auto;
+  height: 550px;
+  display: flex;
+  font-family: "Graphik Web", Helvetica, sans-serif;
+  background-color: #7856ff;
+  flex-direction: column;
+}
+
+#moniter-cont > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+  color: #ffffff;
+  margin: 150px 450px;
+  margin-bottom: 0;
+}
+#moniter-cont p {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 30px 450px;
+  margin-bottom: 0;
+}
+#moniter-cont a {
+  background: white;
+  height: 20px;
+  width: 130px;
+  padding: 20px;
+  color: #7856ff;
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: 50px;
+}
+#moniter-cont a:hover {
+  background-color: #7856ff;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}

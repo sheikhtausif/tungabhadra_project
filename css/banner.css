@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap');
+
+/* font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+/* #container{
+    width: 100%;
+} */
+
+#banner{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 34px;
+}
+.left_banner{
+    width: 50%;
+    padding-right: 11%;
+    
+}
+.right_banner{
+    width: 50%;
+}
+.right_banner img{
+    width: 100%;
+}
+.left_banner > h1{
+    font-size: 54px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    margin-top: 50px;
+}
+.left_banner > p:nth-child(2){
+    font-size: 20px;
+    margin-top: 28px;
+    margin-bottom: 35px;
+}
+.left_banner > p:nth-child(5){
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.banner_button_1{
+    padding: 20px;
+    width: 260px;
+    background-color: #8162fd;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #8162fd;
+    margin-right: 12px;
+}
+.banner_button_1:hover{
+    background-color: #957ef1;
+}
+.banner_button_2{
+    padding: 20px;
+    width: 260px;
+    color: #8162fd;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #8162fd;
+}
+.banner_button_2:hover{
+    background-color: #8162fd;
+    color: white;
+}

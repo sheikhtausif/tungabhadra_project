@@ -1,0 +1,230 @@
+#top div{
+    text-align: center;
+    font-family: 'Graphik Web', Helvetica, sans-serif;
+    
+    
+}
+#top h1{
+    font-size: 40px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+
+#top p{
+color: gray;
+font-size: 22px;
+}
+.but button{
+    width: 18%;
+    height: 65px;
+    background-color: #7856FF;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white; 
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+}
+.button1:hover{
+    background-color: #886bfd;
+}
+#but{
+    margin-left: 10px;
+    color: black;
+    background-color: #51CFDB;
+
+}
+#but:hover{
+    background-color: #6edae4;
+}
+.but3{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Graphik Web', Helvetica, sans-serif;
+}
+.but3 button{
+    width: 120px;
+    height: 65px;
+    background-color: #7856FF;
+    color: white;
+    font-weight:bolder;
+    font-size: 38PX;
+    
+    
+}
+/* ............part2.......................*/
+
+.bottom{
+    width: 800px;
+    height: 10px;
+    background-color: whitesmoke;
+    margin-right: 20px;
+    float: left;
+
+}
+
+input {
+display: block;
+width: 200px;
+margin: auto;
+}
+
+output {
+text-align: center;
+display: block;
+padding-top: 10px;
+font-size: 20px;
+font-family: 'Graphik Web', Helvetica, sans-serif;
+}
+
+
+
+.bottom {
+    float: left;
+    margin-left: 120px;
+    margin-top: 30px;
+
+
+}
+.more {
+    font-weight: bolder;
+    color:#7856FF;
+    font-family: 'Graphik Web', Helvetica, sans-serif;
+    padding-top: 27px;
+    float: left;
+
+}
+.moree{
+    float: left;
+    
+}
+
+#bottom{
+    margin-top: 90px;
+    margin-left: 160px;
+
+}
+.clear{
+        clear: both;
+}
+#sideb{
+    background-color: whitesmoke;
+}
+#plans{
+    width: 75%;
+    height: 590px;
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+
+}
+#plans>div{
+    float: left;
+    margin: 10px;
+    text-align: center;
+    color:#7856FF;
+    margin-left: 50px;
+
+}
+
+.basic button,.unlimited button,.premier button{
+    width: 200px;
+    height: 60px;
+    background-color: #7856FF;
+    color: white;
+}
+.basic img,.unlimited img,.premier img{
+    width: 17px;
+}
+.email{
+    margin-top: 50px;
+    color: black;
+}
+.email2{
+    color: black;
+    font-weight: 300;
+
+}
+#campaign{
+    width: 100%;
+    height: 200px;
+    text-align: center; 
+    background-color: whitesmoke;
+    margin: auto;
+}
+#campaign > h5{
+    margin-top: 130px;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+#frequent{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    
+}
+#frequent .bhavu{
+
+padding-top: 100px;
+}
+#frequent h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.frequent{
+    float: left;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.frequent h3{
+    padding-bottom: 10px;
+}
+
+#getup{
+    width: 100%;
+    height: 600px;
+    background-color: #65B9FF;
+    color: white;
+    font-family: 'Graphik Web', Helvetica, sans-serif;
+}
+#getup h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 38px;
+}
+#getup p{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 18px;
+}
+#getup .getbut{
+    text-align: center;
+    padding-top: 30px;
+
+    
+}
+.getbut > button{
+    padding: 20px;
+    border: 1px solid white;
+    width: 180px;
+    background-color: white;
+    color: #7856FF;
+    font-weight: bold;
+}
+.getbut > button:hover{
+    background-color:  #65B9FF;
+    color: white;
+    border-color: white;
+}
+.price{
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+    font-family: 'Graphik Web', Helvetica, sans-serif;
+    
+}
+
+}
