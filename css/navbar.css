@@ -10,9 +10,10 @@ font-family: 'Roboto', sans-serif; */
 .clear{
     clear: both;
 }
-/* #container{
+#container{
     width: 100%;
-} */
+    /* height: 100vh; */
+}
 
 /* styling for navbar */
 .navbar{
@@ -42,7 +43,6 @@ font-family: 'Roboto', sans-serif; */
 }
 .nav_list li{
     list-style: none;
-    /* padding: 31px 14px; */
     padding: 14px;
     font-size: 17px;
 }
@@ -65,7 +65,7 @@ font-family: 'Roboto', sans-serif; */
     border-radius: 4px;
     padding: 11px 18px 11px 18px;
     font-weight: 600;
-    margin-left: 10px;
+    margin-left: 10px;;
 }
 .nav_list > li:nth-child(10) > a{
     color: #111324;
