@@ -71,6 +71,7 @@ h2{
     background-color: rgb(95, 210, 255);
     border: none;
     color: black;
+    cursor: pointer;
 }
 .Watch_demo{
     background-color:  rgb(44, 195, 255);
