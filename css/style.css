@@ -91,12 +91,14 @@ html{
 }
 .text_template > h1{
     font-size: 36px;
+    width: 63%;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 900;
     margin-top: 50px;
 }
 .text_template > p{
     font-size: 20px;
+    width: 60%;
     margin-top: 16px;
     margin-bottom: 28px;
     font-family: 'Oxygen', sans-serif;

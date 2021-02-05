@@ -76,11 +76,14 @@
     .banner_button_1{
         padding: 18px;
         width: 220px;
-        border-radius: 5px;
     }
     .banner_button_2{
         padding: 18px;
         width: 220px;
+    }
+
+    #template_bg2 > p{
+        width: 80%;
     }
 
     .gradient_template_button{
@@ -89,6 +92,13 @@
 }
 
 @media only screen and (max-width:1120px){
+    .text_template > h1{
+       width: 100%;
+    }
+    .text_template > p{
+        width: 100%;
+    }
+
     .footer_social{
         margin-left: 10%;
         width: 24%;
@@ -144,9 +154,9 @@
 }
 
 @media only screen and (max-width:900px){
-    #container{
+    /* #container{
         overflow: hidden;
-    }
+    } */
     #banner{
         flex-direction: column;
     }
@@ -156,6 +166,9 @@
     .right_banner{
         width: 100%;
         margin-top: 100px;
+    }
+    .logo_img > img {
+        margin-right: 0;
     }
     #part_3{
         flex-direction: column-reverse;
@@ -168,13 +181,66 @@
         width: 90%; 
         margin: auto;
     }
+    .part_3_down {
+        width: 31%;
+    }
     #templates{
         flex-direction: column;
     }
     .left_template{
         width: 100%;
     }
-    .left_template{
+    .right_template{
         width: 100%;
     }
+
+    #template_2{
+        flex-direction: column-reverse;
+    }
+    .text_template {
+        width: 100%;
+    }
+    .img_template {
+        width: 100%;
+    }
+
+    .gradient_template_button{
+        margin-left: 18%;
+    }
+    .footer_content > div{
+        margin-left: 30px;
+    }
 }
+
+@media only screen and (max-width:970px){
+
+    
+
+    .bottom_logo > img:nth-child(1),
+    .bottom_logo > img:nth-child(7),
+    .bottom_logo > img:nth-child(2){
+       display: none;
+    }
+}
+@media only screen and (max-width:800px){
+
+    .gradient_template_text {
+        width: 68%;
+    }
+    .gradient_template_button{
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width:800px){
+
+    .banner_button_1{
+        padding: 16px;
+        width: 200px;
+    }
+    .banner_button_2{
+        padding: 16px;
+        width: 200px;
+    }
+}
+
