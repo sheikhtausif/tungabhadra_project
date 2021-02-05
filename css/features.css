@@ -1,0 +1,188 @@
+body{
+    /* background-color: rgb(255, 255, 126); */
+    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Roboto', sans-serif;
+    /* width: 80%;
+    margin: auto; */
+}    /* text-rendering: optimizeLegibility; */
+
+h1{
+    line-height: 55px;
+}
+p{
+    line-height: 30px;
+}
+h2{
+    line-height: 40px;
+}
+
+#Powerful_mail{
+    width: 900px;
+    margin: auto;
+}
+#Powerful_mail > div{
+    margin: 0px 100px;
+    text-align: center;
+}
+#Powerful_mail > div > h1{
+    font-size: 50px;
+    margin-top: 100px;
+}
+#Powerful_mail > div > p{
+    color: gray;
+    font-size: 16px;
+    margin: 0px 50px;
+}
+.sign_up_btn{
+    width: 470px;
+    padding: 10px;
+    margin-top: 18px;
+    background-color:#7856FF;
+    color: white;
+    border: none;
+}
+.bgcolor{     
+    /* margin-top: 40px; */
+    background-color:  rgb(246, 246, 246);
+}
+.grey_part{
+    margin-top: 40px;
+    /* background-color: rgb(246, 246, 246); */
+    display: grid;
+    grid-template-columns: 38% 60%;
+    gap: 2%;
+}
+.grey_part > div:nth-child(1){
+   padding: 45px 0px 45px 80px;
+}
+.inner_h2{
+    font-size: 32px;
+    margin: 4% 0%;
+}
+.Watch_demo, .learn_more{
+    height: 40px;
+    width: 170px;
+    margin: 4% 0%;
+    font-size: 15px;
+    /* font-weight: bold; */
+    border: 1px solid rgb(44, 195, 255);
+}
+.learn_more:hover ,.Watch_demo:hover{
+    background-color: rgb(95, 210, 255);
+    border: none;
+    color: black;
+}
+.Watch_demo{
+    background-color:  rgb(44, 195, 255);
+}
+.learn_more{
+    color: rgb(95, 210, 255);
+}
+.white_part{
+    display: grid;
+    grid-template-columns: 60% 38%;
+    gap: 2%;
+}
+.white_part>div:nth-child(2){
+    padding: 85px 80px 65px 0px;
+}
+#Email_marketing > div > img{
+    height: 380px;
+    width: 100%;
+    margin: 50px 0px;
+}
+#Marketing_automation>div > img{
+    height: 450px;
+    width: 70%;
+    margin-left: 50px;
+}
+#Personalization > div > img{
+    height:  500px;
+    width: 65%;
+    margin: 50px 100px;
+}
+#Personalization > div:nth-child(1){
+    margin-top: 15%;
+}
+#Contacts_and_segmentation>div>img{
+    padding: 0% 40px;
+}
+#blue_bg{
+    background-color: rgb(1, 1, 51);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+#blue_bg > div > button{
+    width: 30%;
+    margin: 4% 0% 0% 0%;
+}
+#blue_bg > div{
+    font-size: 18px;
+    width: 60%;
+    margin : auto;
+}
+#Signup_forms>div>img{
+    margin: 0px 150px;
+}
+#Transactional_email > div > img{
+    height: 450px;
+    width: 80%;
+    padding: 0px 0px 0px 80px;
+}
+#Customer_satisfaction{
+    text-align: center;
+    padding: 30px 0px;
+}
+#Customer_satisfaction > div:nth-child(1)>p{
+    margin: -2%;
+    font-size: 18px;
+}
+#Customer_satisfaction > div:nth-child(2) > div:nth-child(2)>p{
+    margin-top: 4%;
+    text-align: left;
+    font-size: 20px;
+}
+#feature_last_blue_part{
+    background: linear-gradient(to right, #7856FF 0%, #65B9FF 100%);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+#feature_last_blue_part > div{
+    max-width: 81%;
+    margin: auto;
+}
+#feature_last_blue_part button{
+    height: 60px;
+    width: 190px;
+    color: #7856FF ;
+    border: none;
+}
+#feature_last_blue_part button:hover{
+    background-color:  linear-gradient(to right, #7856FF 80%, #068af7 100%);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#Apps_and_integrations>div:nth-child(2){
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 0% 12%;
+    padding: 10% 0% 0% 19%;
+}
+#Apps_and_integrations>div:nth-child(2) > div >img {
+    max-width: 150px;
+    width: 100%;
+    /* height: 35px; */
+    padding: 10px;
+    opacity: 0.25;
+    cursor: pointer;
+    /* transform: translateY(-50%); */
+}
+#Apps_and_integrations>div:nth-child(2) > div >img:hover{
+    opacity: 1;
+}
