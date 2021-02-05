@@ -96,20 +96,24 @@ font-family: 'Graphik Web', Helvetica, sans-serif;
 }
 .moree{
     float: left;
+    
 }
 
 #bottom{
     margin-top: 90px;
-    margin-left: 80px;
+    margin-left: 160px;
 
 }
 .clear{
         clear: both;
 }
+#sideb{
+    background-color: whitesmoke;
+}
 #plans{
     width: 75%;
     height: 500px;
-    background-color: whitesmoke;
+    background-color: white;
     margin: auto;
     margin-top: 80px;
 
@@ -119,12 +123,14 @@ font-family: 'Graphik Web', Helvetica, sans-serif;
     margin: 10px;
     text-align: center;
     color:#7856FF;
-    margin-left: 30px;
+    margin-left: 50px;
+
 }
+
 .basic button,.unlimited button,.premier button{
-    width: 150px;
-    height: 40px;
-    background-color: blue;
+    width: 200px;
+    height: 60px;
+    background-color: #7856FF;
     color: white;
 }
 .basic img,.unlimited img,.premier img{
@@ -191,4 +197,30 @@ padding-top: 100px;
     text-align: center;
     padding-top: 50px;
     font-size: 18px;
+}
+#getup .getbut{
+    text-align: center;
+    padding-top: 30px;
+
+    
+}
+.getbut button{
+    width: 180px;
+    background-color: white;
+    color: #7856FF;
+    border-color: white;
+}
+.getbut button:hover{
+    background-color:  #65B9FF;
+    color: white;
+    border-color: white;
+}
+.price{
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+    font-family: 'Graphik Web', Helvetica, sans-serif;
+    
+}
+
 }
