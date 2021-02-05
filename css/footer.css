@@ -13,10 +13,10 @@ footer{
     margin: auto;
 }
 .footer_logo{
-    width: 44%;
+    width: 38%;
 }
 .footer_logo img {
-    width: 40%;
+    width: 44%;
     filter: invert(1);
 }
 .footer_up>div{
