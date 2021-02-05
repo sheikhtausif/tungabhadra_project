@@ -1,16 +1,209 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
 /* font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Oxygen', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
 *{
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 .clear{
     clear: both;
 }
+
 #container{
     width: 100%;
-    /* height: 100vh; */
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 13px;
+}
+.line{
+    width: 28px;
+    background-color: white;
+    height: 3px;
+    margin: 4px 4px;
+}
+
+
+#template_bg{
+    width: 100%;
+    height: 400px;
+    background: center;
+    /* background: rgba(0, 0, 0, 0.7) url('../img/template_bg1.jpg'); */
+    background: rgba(96, 97, 99, 0.7) url('../img/template_bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+#template_bg > p{
+    padding-top: 7%;
+    width: 52%;
+    color: white;
+    font-size: 24px;
+    padding-left: 9%;
+    font-family: 'Oxygen', sans-serif;
+}
+#template_bg > h5{
+    color: white;
+    font-size: 21px;
+    padding-left: 9%;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.template_bg_button{
+    width: 250px;
+    background-color: white;
+    color: #8162fd;
+    margin-top: 20px;
+    margin-left: 9%;
+    padding:20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.template_bg_button:hover{
+    background: none;
+    color: white;
+}
+
+#template_2{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.text_template{
+    width: 55%;
+}
+.text_template > h1{
+    font-size: 36px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    margin-top: 50px;
+}
+.text_template > p{
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 28px;
+    font-family: 'Oxygen', sans-serif;
+}
+.template_2_button{
+    padding: 18px;
+    width: 250px;
+    color: #8162fd;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #8162fd;
+}
+.template_2_button:hover{
+    background-color: #8162fd;
+    color: white;
+}
+.img_template{
+    width: 44%;
+}
+.img_template img{
+    width: 100%;
+}
+
+/* template background 2 */
+#template_bg2{
+    width: 100%;
+    height: 400px;
+    background: center;
+    /* background: rgba(0, 0, 0, 0.7) url('../img/template_bg1.jpg'); */
+    background: rgba(96, 97, 99, 0.7) url('../img/template_bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding-bottom: 60px;
+}
+#template_bg2 > p{
+    padding-top: 7%;
+    width: 52%;
+    color: white;
+    font-size: 24px;
+    padding-left: 9%;
+    font-family: 'Oxygen', sans-serif;
+}
+#template_bg2 > h5{
+    color: white;
+    font-size: 21px;
+    padding-left: 9%;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.template_bg2_button{
+    width: 250px;
+    background-color: white;
+    color: #8162fd;
+    margin-top: 20px;
+    margin-left: 9%;
+    padding:20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.template_bg2_button:hover{
+    background: none;
+    color: white;
+}
+
+/* gradient template  */
+#gradient_template{
+    /* background: url(../img/gradient_template.png); */
+    background-image: linear-gradient(to right, #7857FF, #66B8FF);
+    height: 400px;
+    padding-top: 140px;
+}
+.gradient_template_text{
+    width: 40%;
+    margin: auto;
+}
+.gradient_template_text > h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.gradient_template_text > p{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 44px;
+    margin-bottom: 36px;
+    font-family: 'Oxygen', sans-serif;
+}
+.gradient_template_button{
+    width: 200px;
+    margin-left: 32%;
+    padding: 20px;
+    color: #8162fd;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+}
+.gradient_template_button:hover{
+    background-color: #6E8DFF;
+    color: white;
+    border: 1px solid white;
 }

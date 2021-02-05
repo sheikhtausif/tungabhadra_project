@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap');
+
+/* font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+/* #container{
+    width: 100%;
+} */
+
+/* part - template */
+
+#templates{
+    display: flex;
+    margin-bottom: 80px;
+}
+.left_template{
+    display: flex;
+    width: 60%;
+}
+.template_img{
+    margin-right: 16px;
+    border-radius: 7px;
+    /* box-shadow: 4px 4px 4px 4px #c7c7ca; */
+}
+.right_template{
+    width: 40%;
+    padding-top: 50px;
+}
+.left_template img{
+    width: 100%;
+    height: 100%;
+}
+.right_template > h1{
+    font-size: 36px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: 14%;
+    margin-right: 10%;
+}
+.right_template > p{
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 28px;
+    margin-left: 14%;
+    margin-right: 10%;
+}
+.template_button{
+    padding: 18px;
+    width: 200px;
+    color: #8162fd;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #8162fd;
+    margin-left: 14%;
+}
+.template_button:hover{
+    background-color: #8162fd;
+    color: white;
+}
+/* .template_dot{
+    background-color:  #dedee2;
+    border-radius: 7px;
+    border: none;
+}
+.templete_dot_button{
+    background-color: rgb(112, 110, 110);
+    border-radius: 50%;
+    border: 2px solid rgb(112, 110, 110);
+} */
