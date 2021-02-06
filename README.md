@@ -1,6 +1,6 @@
 # Tungabhadra Group Project on Email Marketing
 ​
-HTML, CSS and JavaScript code for the project of Masai school Samurai II batch Unit 1.
+HTML, CSS and JavaScript Library used for the project of Masai school Samurai II batch Unit 1.
 ​
 --- 
 ​
