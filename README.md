@@ -1,8 +1,29 @@
 # Tungabhadra Group Project on Email Marketing
+
+A clone of an email marketing website where we have just made some of the static pages.
+
 ​
-HTML, CSS and JavaScript Library used for the project of Masai school Samurai II batch Unit 1.
+### Tech stacks used :
+
+*  **Html** 
+*  **CSS** 
+*  **Java Script** 
+
 ​
---- 
+
+## Landing Page :
+
+<img src="https://i.imgur.com/gNlTGut.png" />
+
+## Features Page :
+
+<img src="https://i.imgur.com/vOPSHue.png" />
+
+## Resources Page :
+
+<img src="https://i.imgur.com/NJULjdP.png" />
+<img src="https://i.imgur.com/ruNyzuk.png" />
+
 ​
 ## Contributers
 ​
