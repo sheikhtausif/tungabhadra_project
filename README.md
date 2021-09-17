@@ -19,15 +19,14 @@ https://github.com/sheikhtausif/tungabhadra_project.git
 cd ./tungabhadra_project
 run index.html
 ```
-
-​
+<!-- ​ -->
 ### Tech stacks used :
 
 *  **Html** 
 *  **CSS** 
 *  **JavaScript**
 
-​
+<!-- ​ -->
 
 ## Landing Page :
 
