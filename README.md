@@ -4,6 +4,10 @@
 
 A clone of an email marketing website where we have just made some of the static pages.
 
+**To see the live site click the below link.**
+
+https://sheikhtausif.github.io/tungabhadra_project
+
 ## Installing and Running
 
 Executing the commands mentioned below one by one in your command line will help in making this app. <br/>
